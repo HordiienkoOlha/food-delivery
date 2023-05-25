@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Food delivery
 
-## Getting Started
+This is a React application using Redux for state management, React Router for client-side routing, and Material-UI for styling. The project was developed using the Mobile First approach, with responsive design for mobile devices from 320px, tablets from 768px and desktops from 1280px. The CSS Grid algorithm was used to create the layout of the product cards.
 
-First, run the development server:
+Getting Started
+To run the application, first clone the repository and install the dependencies using npm:
 
-```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+npm install
+
+Then start the application with:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start a development server at http://localhost:5173.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+File Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+main.js: The entry point of the application. It renders the root component of the application and sets up Redux store, React Router, and Material-UI theme.
+App.jsx: The root component of the application. It contains the AppBar and defines the routes for the application using React Router.
 
-## Learn More
+Pages
 
-To learn more about Next.js, take a look at the following resources:
+- Home
+- Cart
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Deploy on Netlify
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

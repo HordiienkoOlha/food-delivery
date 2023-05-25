@@ -1,7 +1,25 @@
 {
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["./*"]
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@components/*": [
+                "src/components/*"
+            ],
+            "@helpers/*": [
+                "src/helpers/*"
+            ],
+            "@styles/*": [
+                "src/styles/*"
+            ],
+            "@theme/*": [
+                "src/theme/*"
+            ],
+            "@views/*": [
+                "src/views/*"
+            ],
+            "@/*": [
+                "src/*"
+            ]
+        }
     }
-  }
 }
